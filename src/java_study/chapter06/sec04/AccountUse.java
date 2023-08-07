@@ -7,7 +7,11 @@ public class AccountUse {
         dad.accountName = "튼튼적금";
         dad.balance = 1000;
 
-        dad.deposit();
-        dad.withdraw();
+        dad.deposit(1000);
+        dad.deposit(1000);
+        dad.deposit(1000);
+        dad.deposit(1000);
+        dad.withdraw(3000);
+        dad.withdraw(20000);
     }
 }
